@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dennis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="loader">
+        <img src="./Assets/future.svg" alt="">
+      </div>
+        <nav class="overlay">        
+          <div class="overlay dark-overlay btn-menu"></div>
+          <div class="overlay nav-overlay">
+            <div class="overlay-gradient nav-clr"></div>
+            <div class="nav-language">
+              <div class="btn btn-language">
+                <a href="">
+                  <img src="./Assets/en.svg" alt="">
+                </a>
+              </div>
+              <div class="btn btn-language active">
+                <a href="">
+                  <img src="./Assets/pap.svg" alt="">
+                </a>
+              </div>
+            </div>
+            <ul class="nav-mobile">
+              <li class="active">
+                <a href="">
+                  <span class="text">
+                    <span class="text-inner">HOME</span>
+                    <span class="arrow">
+                      <span class="arrow-inner">→</span>
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="text">
+                    <span class="text-inner">ABOUT</span>
+                    <span class="arrow">
+                      <span class="arrow-inner">→</span>
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="text">
+                    <span class="text-inner">SCHOOL</span>
+                    <span class="arrow">
+                      <span class="arrow-inner">→</span>
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="text">
+                    <span class="text-inner">NEWS<sup>5</sup></span>
+                    <span class="arrow">
+                      <span class="arrow-inner">→</span>
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="text">
+                    <span class="text-inner">DONATE</span>
+                    <span class="arrow">
+                      <span class="arrow-inner">→</span>
+                    </span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <div class="nav-mobile-bottom">
+              <div class="btn btn-external">
+                <a href="" class="click-btn small">
+                  <div class="btn-fill"></div>
+                  <div class="btn-text">FAQ</div>
+                </a>
+              </div>
+                <div class="btn btn-external">
+                  <a href="" class="click-btn small">
+                    <div class="btn-fill"></div>
+                    <div class="btn-text">Contact</div>
+                  </a>
+                </div>
+                  <div class="btn btn-external">
+                    <a href="" class="click-btn small">
+                      <div class="btn-fill"></div>
+                      <div class="btn-text">Global Press</div>
+                    </a>
+                  </div>
+                  <p class="p-small">Future Goals © 2023</p>
+            </div>
+          </div>
+          <div class="nav-top">
+            <div class="btn btn-nav btn-menu">
+              <div class="click-btn">
+                <div class="btn-fill">
+        
+                </div>
+                <div class="btn-text">
+                  <div class="btn-text-inner">
+                    <span>MENU</span>
+                    <span>CLOSE</span>
+                  </div>
+                  <div class="hamburger">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      <div id="bg">     
+        <section class="main-wrap">
+          <header class="default-header">
+            <div
+              class="video-background"
+              data-scroll
+              data-scroll-speed="-3"
+              data-scroll-position="top">
+              <div class="video-wrapper">
+                <iframe
+                  class="vimeo-iframe"
+                  src="https://player.vimeo.com/video/711309378?background=1&amp;api=1&amp;autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;muted=1&amp;player_id=vvimeoVid"
+                  frameborder="0"
+                  allowfullscreen=""
+                  data-ready="true"
+                ></iframe>
+              </div>
+            </div>
+            <img
+              class="overlay image-overlay lazy video-placeholder is-inview entered loaded"
+              data-scroll=""
+              data-scroll-speed="-1"
+              data-scroll-position="top"
+              src="https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-1920x-q72.jpg"
+              data-src="https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-1920x-q72.jpg"
+              data-srcset="https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-400x-q72.jpg 400w, https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-540x-q72.jpg 540w, https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-720x-q72.jpg 720w, https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-1080x-q72.jpg 1024w, https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-1440x-q72.jpg 1440w, https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-1920x-q72.jpg 1920w"
+              data-sizes="100w"
+              style="
+                transform: matrix3d(
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                );
+              "
+              data-ll-status="loaded"
+              sizes="100w"
+              srcset="
+                https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-400x-q72.jpg   400w,
+                https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-540x-q72.jpg   540w,
+                https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-720x-q72.jpg   720w,
+                https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-1080x-q72.jpg 1024w,
+                https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-1440x-q72.jpg 1440w,
+                https://futuregoals.com/media/pages/home/4120948c2d-1652944216/this-is-future-goals-alternatief-1920x-q72.jpg 1920w
+              "
+/>
+            <div class="overlay dark-gradient-overlay"></div>
+
+            <div class="overlay dark-overlay"
+            style="opacity: calc(36 / 100)">
+            </div>
+
+            <div class="overlay-round-corners"></div>
+            <div class="nav-relative">
+              <div class="flag">
+                <a href=""><img src="./Assets/en.svg" alt="" /></a>
+                <a href=""><img src="./Assets/pap.svg" alt="" /></a>
+              </div>
+              <a href="" class="futuregoal"
+                ><img src="./Assets/future.svg" alt=""
+              /></a>
+            </div>
+            <div class="container medium">
+              <div class="row">
+                <div class="flex-col">
+                  <h1>From the ocean, for the future</h1>
+                  <div class="initiated">
+                    <h5>Initiated by</h5>
+                    <img src="./Assets/sandal.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+        </section>
+        <div class="theme-light gradient-video">
+          <div class="container">
+            <div class="gradient-block">
+              <div class="overlay-gradient"></div>
+              <div class="gradient-block-content"data-scroll data-scroll-speed="-2">
+                <div class="row split">
+                  <div class="flex-col">
+                    <div class="card video-not-empty">
+                      <img
+                        class="overlay image-overlay"
+                        src="./Assets/this-is-future-goals-1080x-q72.jpg"
+                        alt=""
+                      />
+
+                      <div class="overlay play-pause-overlay">
+                        <div class="overlay dark-overlay"></div>
+                        <div class="btn btn-play">
+                          <div class="btn-click">
+                            <div class="btn-fill">
+                              <i class="ri-play-fill"></i>
+                            </div>
+                            <div class="btn-text">
+                              <img src="./Assets/btn.svg" alt="" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex-col">
+                    <div class="content">
+                      <h5>Welcome</h5>
+                      <h2>This is Future Goals</h2>
+                      <p>
+                        "A Caribbean wide program that encourages children to
+                        enjoy and play football, starting in Curaçao. Future
+                        Goals turns fishing nets sourced from the ocean and
+                        plastic waste into colorful football goals."
+                      </p>
+                      <div class="btn-row">
+                        <div class="btn btn-normal deco-none">
+                          <a href="" class="click-btn more">
+                            <div class="btn-fill">More info →</div>
+                            <div class="btn-text">More info →</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="goal-section">
+          <div class="small-container">OUR GOALS FOR THE FUTURE IN CURAÇAO</div>
+          <div class="goal-img-cntr">
+            <div class="row ups-target">
+              <div class="flex-col single-usp">
+                <div class="icon">
+                  <img src="./Assets/icon-1.svg" alt="" />
+                </div>
+                <h2>
+                  <span class="number count-up">96</span>
+                  <span class="after"></span>
+                </h2>
+                <h5>Future Goals</h5>
+              </div>
+              <div class="flex-col single-usp">
+                <div class="icon">
+                  <img src="./Assets/icon-2.svg" alt="" />
+                </div>
+                <h2>
+                  <span class="number count-up">20</span>
+                  <span class="after"> <sup>+</sup> </span>
+                </h2>
+                <h5>FUTURE COACHES</h5>
+              </div>
+              <div class="flex-col single-usp">
+                <div class="icon">
+                  <img src="./Assets/icon-3.svg" alt="" />
+                </div>
+                <h2>
+                  <span class="number count-up">48</span>
+                  <span class="after"></span>
+                </h2>
+                <h5>PARTICIPATING SCHOOLS</h5>
+              </div>
+              <div class="flex-col single-usp">
+                <div class="icon">
+                  <img src="./Assets/icon-4.svg" alt="" />
+                </div>
+                <h2>
+                  <span class="number count-up">5.000</span>
+                  <span class="after"></span>
+                </h2>
+                <h5>HAPPY CHILDREN</h5>
+              </div>
+              <div class="flex-col single-usp">
+                <div class="icon">
+                  <img src="./Assets/icon-5.svg" alt="" />
+                </div>
+                <h2>
+                  <span class="number count-up">1.250</span>
+                  <span class="after small"> <sup>M2</sup> </span>
+                </h2>
+                <h5>FISHING NETS</h5>
+              </div>
+              <div class="flex-col single-usp">
+                <div class="icon">
+                  <img src="./Assets/icon-6.svg" alt="" />
+                </div>
+                <h2>
+                  <span class="number count-up">4.000</span>
+                  <span class="after small"> <sup>KG</sup> </span>
+                </h2>
+                <h5>PLASTIC WASTE</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="flex-col">
+                <div class="btn-row donation">
+                  <div class="btn btn-normal">
+                    <a href="" class="click-btn dtn">
+                      <div class="btn-fill">Make a donation →</div>
+                      <div class="btn-text">Make a donation →</div>
+                    </a>
+                  </div>
+                  <div class="btn btn-secondary"><a href="" class="click-btn dtn outline">
+                    <div class="btn-fill">OR GET IN TOUCH</div>
+                    <div class="btn-text">OR GET IN TOUCH</div>
+                </a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-brands">
+           <div class="brands-cntr">
+            <div class="row">
+                <div class="single-brand-item">
+                    <a href="">
+                        <div class="inner-wrap">
+                            <div class="card">
+                                <img class="overlay image-overlay lazy entered loaded" src="./Assets/why-are-we-doing-this-1080x-q72.jpg" alt="">
+
+                                <div class="overlay dark-overlay"></div>
+                                <div class="brnd-img"><img src="./Assets/JAX.svg" alt=""></div>
+                            </div>
+                            <div class="btn-row">
+                                <div class="btn btn-negative">
+                                    <div class="click-btn reverse">
+                                        <div class="btn-fill wht-btn">AFC Ajax →</div>
+                                        <div class="btn-text">AFC Ajax →</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-brand-item bnd">
+                    <a href="">
+                        <div class="inner-wrap">
+                            <div class="card">
+                                <img class="overlay image-overlay lazy entered loaded"
+                                    src="./Assets/home-image-sandals-resorts-1080x-q72.jpg" alt="">
+                
+                                <div class="overlay dark-overlay"></div>
+                                <div class="brnd-img sandals"><img src="./Assets/sandal.svg" alt=""></div>
+                            </div>
+                            <div class="btn-row">
+                                <div class="btn btn-negative">
+                                    <div class="click-btn reverse">
+                                        <div class="btn-fill wht-btn">SANDALS RESORTS →</div>
+                                        <div class="btn-text">SANDALS RESORTS →</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+           </div>
+        </section>
+        <section class="news-grid" data-scroll data-scroll-speed="-2">
+            <div class="news-cntr">
+                <div class="title">
+                    <div class="flex-col">
+                        <h2 class="big">Get the latest news updates</h2>
+                    </div>
+                    <div class="flex-col flex-col-custom-btns">
+                        <div class="custom-btn">
+                            <div class="btn btn-arrow prev">
+                                <div class="click-btn circle">
+                                    <div class="btn-fill">
+                                        <i class="bi bi-arrow-left"></i>
+                                    </div>
+                                    <div class="btn-text">
+                                        <i class="bi bi-arrow-left"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn btn-arrow next">
+                                <div class="click-btn circle">
+                                    <div class="btn-fill">
+                                        <i class="bi bi-arrow-right"></i>
+                                    </div>
+                                    <div class="btn-text">
+                                        <i class="bi bi-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="carousel-content">
+                                <a href="">
+                                    <div class="inner-wrap">
+                                        <div class="card">
+                                            <img class="overlay image-overlay lazy entered loaded" src="./Assets/schermafbeelding-2022-12-14-om-15-54-11-720x-q72.jpg" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <div class="inner-text">
+                                                <div class="date-badge">
+                                                    <h5>14 December — Curaçao</h5>
+                                                </div>
+                                                <h3>Vacature: lokale coördinator</h3>
+                                                <p>Wij zijn op zoek naar een coördinator, woonachtig in Curaçao, die het leuk lijkt het Future Goals programma te
+                                                    begeleiden op het eiland. Heb jij een voorliefde voor voetbal en lesgeven?</p>
+                                                    <div class="btn-row">
+                                                        <div class="btn btn-negative">
+                                                            <div class="click-btn reverse">
+                                                                <div class="btn-fill wht-btn"></div>
+                                                                <div class="btn-text">Full article →</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="carousel-content">
+                                <a href="">
+                                    <div class="inner-wrap">
+                                        <div class="card">
+                                            <img class="overlay image-overlay lazy entered loaded"
+                                                src="./Assets/onenil-presseventajaxxxsandals-15-1080x-q72-720x-q72.jpg" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <div class="inner-text">
+                                                <div class="date-badge">
+                                                    <h5>9 December — Curaçao</h5>
+                                                </div>
+                                                <h3>Vacature: future coach</h3>
+                                                <p>"Als coach geven we je de kans als (bij)baan aan de slag te gaan en het Future Goals programma te verzorgen voor de
+                                                groepen 6 van basisscholen op het eiland."</p>
+                                                <div class="btn-row">
+                                                    <div class="btn btn-negative">
+                                                        <div class="click-btn reverse">
+                                                            <div class="btn-fill wht-btn"></div>
+                                                            <div class="btn-text">Full article →</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="carousel-content">
+                                <a href="">
+                                    <div class="inner-wrap">
+                                        <div class="card">
+                                            <img class="overlay image-overlay lazy entered loaded"
+                                                src="./Assets/news-3-interview-limpi-720x-q72.jpg" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <div class="inner-text">
+                                                <div class="date-badge">
+                                                    <h5>19 May — Curaçao</h5>
+                                                </div>
+                                                <h3>Interview with Limpi Recycling</h3>
+                                                <p>"In order to create one Future Goal we need approximately 30 kilos of plastic waste”. An interview with local
+                                                organization Limpi Recycling."</p>
+                                                <div class="btn-row">
+                                                    <div class="btn btn-negative">
+                                                        <div class="click-btn reverse">
+                                                            <div class="btn-fill wht-btn"></div>
+                                                            <div class="btn-text">Full article →</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="carousel-content">
+                                <a href="">
+                                    <div class="inner-wrap">
+                                        <div class="card">
+                                            <img class="overlay image-overlay lazy entered loaded"
+                                                src="./Assets/news-2.jpg" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <div class="inner-text">
+                                                <div class="date-badge">
+                                                    <h5>19 May — Curaçao</h5>
+                                                </div>
+                                                <h3>MGR. Niewindt College receives first Future Goals</h3>
+                                                <p>"Today was most definitely not an ordinary school day for the children of the MGR. Nieuwindt college in Curaçao. The
+                                                first school on the island to receive the colorful Future Goals."</p>
+                                                <div class="btn-row">
+                                                    <div class="btn btn-negative">
+                                                        <div class="click-btn reverse">
+                                                            <div class="btn-fill wht-btn"></div>
+                                                            <div class="btn-text">Full article →</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="carousel-content">
+                                <a href="">
+                                    <div class="inner-wrap">
+                                        <div class="card">
+                                            <img class="overlay image-overlay lazy entered loaded"
+                                                src="./Assets/news-3.jpg" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <div class="inner-text">
+                                                <div class="date-badge">
+                                                    <h5>19 May — Curaçao</h5>
+                                                </div>
+                                                <h3>VAjax, SRI and its Foundation sign partnership</h3>
+                                                <p>"From fishing nets to football goals: Ajax and Sandals Resorts International join forces to facilitate youth football in
+                                                the Caribbean. Inspiring the next generation with life and football skills, starting in Curaçao"</p>
+                                                <div class="btn-row">
+                                                    <div class="btn btn-negative">
+                                                        <div class="click-btn reverse">
+                                                            <div class="btn-fill wht-btn"></div>
+                                                            <div class="btn-text">Full article →</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="btn-row">
+                        <div class="btn btn-normal">
+                            <a href="" class="click-btn more">                              
+                                <div class="btn-fill">See more →</div>
+                                <div class="btn-text">See more →</div>                              
+                           </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-prefooter theme-dark">
+            <div class="overlay overlay-wrapper">
+                <div class="overlay image-overlay-wrapper">
+                    <img data-scroll data-scroll-speed="-2" class="overlay image-overlay" src="./Assets/prefooter-placeholder-1920x-q72.jpg" alt="">
+                </div>
+                <div class="overlay dark-overlay" data-scroll  data-scroll-speed="0"></div>
+            </div>
+            <div class="allcontainer tiny">
+                <div class="row">
+                    <div class="flex-col">
+                        <h2 class="big">Get involved</h2>
+                        <p>"Do you have a question about Future Goals? Want to get involved? Or are you representing a primary school and want to
+                        enroll? We would like to hear from you!"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-footer-cards theme-dark">
+            <div class="container-1" data-scroll data-scroll-speed="3">
+                <ul class="row card-is-double">
+                    <li class="flex-col single-footercard-item">
+                        <a href="">
+                            <div class="inner-wrap">
+                                <div class="text">
+                                    <div class="text-top">
+                                        <h3>How to reach us?</h3>
+                                        <p>Interested to partner up? Or do you have a question or suggestion about our program?</p>
+                                    </div>
+                                    <div class="btn-row">
+                                        <div class="btn btn-normal">
+                                            <div class="click-btn more">
+                                                <div class="btn-fill">Contact us →</div>
+                                                <div class="btn-text">Contact us →</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="overlay image-overlay lazy entered loaded"
+                                        src="./Assets/news-4.jpg">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="flex-col single-footercard-item">
+                        <a href="">
+                            <div class="inner-wrap">
+                                <div class="text">
+                                    <div class="text-top">
+                                        <h3>How to enroll?</h3>
+                                        <p>Check our school portal and learn how to join Future Goals.</p>
+                                    </div>
+                                    <div class="btn-row">
+                                        <div class="btn btn-normal">
+                                            <div class="click-btn more">
+                                                <div class="btn-fill">School portal →</div>
+                                                <div class="btn-text">School portal →</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="overlay image-overlay lazy entered loaded"
+                                        src="./Assets/news-5.jpg">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-1 ani" data-scroll data-scroll-speed="3">
+                <div class="row">
+                    <div class="flex-col">
+                        <h2>From the ocean, for the future</h2>
+                    </div>
+                    <div class="flex-col">
+                        <div class="initiated">
+                            <h5>Initiated by</h5>
+                            <img src="./Assets/sandal.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-footer theme-light-1" data-scroll data-scroll-speed="0">
+            <div class="container-1 ani">
+                <div class="row">
+                    <div class="flex-col future">
+                        <a href="">
+                            <img src="./Assets/future-blck.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="flex-col social">
+                        <div class="btn btn-secondary">
+                            <a href="" class="click-btn dtn tdn outline">
+                                <div class="btn-fill">Contact</div>
+                                <div class="btn-text">Contact</div></a>
+                        </div>
+                        <div class="btn btn-secondary">
+                            <a href="" class="click-btn dtn tdn outline">
+                                <div class="btn-fill">FAQ</div>
+                                <div class="btn-text">FAQ</div>
+                            </a>
+                        </div>
+                        <div class="btn btn-secondary">
+                            <a href="" class="click-btn dtn tdn outline">
+                                <div class="btn-fill">Privacy Policy</div>
+                                <div class="btn-text">Privacy Policy</div>
+                            </a>
+                        </div>
+                        <div class="btn btn-secondary">
+                            <a href="" class="click-btn dtn tdn outline">
+                                <div class="btn-fill">Global Press</div>
+                                <div class="btn-text">Global Press</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+      integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"
+      integrity="sha512-A64Nik4Ql7/W/PJk2RNOmVyC/Chobn5TY08CiKEX50Sdw+33WTOpPJ/63bfWPl0hxiRv1trPs5prKO8CpA7VNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
